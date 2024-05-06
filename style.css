@@ -1,0 +1,312 @@
+body{
+    background-color: black;
+    height: 100vh;
+    
+}
+
+
+
+
+header{
+
+    padding: 40px 4%;
+}
+
+header a{
+    color: white;
+    display: inline-block;
+    transition: .2s;
+    
+    
+}
+
+header a:hover{
+
+    color: purple;
+    transform: scale(1.5)
+}
+
+header nav ul{
+
+    list-style: none;
+
+}
+
+
+header nav li{
+   display: inline-block;
+    padding: 0 40px;
+}
+
+
+.interface{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: 0 auto;
+    font-family: "Jaro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+  }
+
+
+  .links{
+ text-decoration: none;
+  }
+
+
+  .botao button{
+    
+
+    padding: 10px 40px;
+    font-size: 18px;
+ font-weight: 500;
+ background-color: purple; 
+ border: 0;
+ border-radius: 30px;
+ cursor: pointer;
+
+  }
+
+
+
+
+  .topo{
+    padding: 40 4%;
+
+
+    display: flex;
+  }
+ 
+
+  .flex{
+    display: flex;
+  }
+
+  section.topo.flex{
+
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+  }
+
+
+  .esquerdinha h1{
+    line-height: 40px;
+
+    font-size: 40px;
+  }
+
+  .esquerdinha p{
+    font-size: 40px;
+    margin: 40px 50px;
+
+  }
+
+
+  .direitinha img{
+
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+    width: 500px;
+
+  }
+
+
+  @keyframes flutuar{
+
+    0%{
+        top: 0;
+
+    }
+    100%{
+        top:30px;
+    }
+  }
+
+
+  section.especialidades{ 
+
+    padding: 40px 4%;
+
+  }
+
+  section.especialidades .flex{
+
+    gap: 60px;
+  }
+
+  h2.textinho{ 
+    color: white;
+    font-size: 38px;
+    text-align: center;
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    
+  }
+
+  h2.textinho span{
+    color: purple;
+  }
+
+  .especialidades .especialidadesbox{
+
+    color: white;
+    padding: 40px;
+   
+    margin-top: 45px;
+
+    border-radius: 20px;
+
+    
+
+  }
+
+  .especialidades .especialidadesbox i{
+
+font-size: 40px;
+color: purple;
+}
+
+
+  .especialidades .especialidadesbox h3{
+
+
+    font-size: 30px;
+    margin: 15px 0;
+    
+
+
+
+    }
+
+    .especialidades .especialidadesbox :hover{
+        transform: scale(1.05);
+        box-shadow: 0 0 8px white;
+
+        }
+
+
+
+        .sobre{
+          padding: 40px 4%;
+
+        }
+
+        .sobre .flex{
+
+          display: flex;
+          align-items: center;
+          gap: 40px;
+        }
+
+        .sobre .txtsobre{
+          color: white;
+          
+        }
+
+
+        .txtsobre h3{
+
+        font-size: 40px;
+        margin: 40px;
+
+
+        }
+
+
+        .txtsobre span{
+
+          color: purple;
+          display: block
+          
+        }
+
+
+        .txtsobre p{
+
+          font-size: 30px;
+        }
+
+
+
+        .botaotxt i{
+
+          font-size: 30px;
+          margin: 40px 20px;
+        }
+
+
+
+        .final a{
+          display: inline-block;
+          text-decoration: none;
+          color: purple;
+
+          
+        }
+
+
+        .final{
+          
+
+          padding: 40px 40px;
+          margin: 10px;
+          box-shadow: 0 0 40px purple ;
+
+
+          background-color: black;
+        }
+
+
+        .final .flex{
+
+          justify-content: space-between;
+          
+
+
+        }
+
+
+        section.portfolio{
+
+          padding: 80px 4%;
+          box-shadow: 0 0 40px 10px rgb(226, 226, 226);
+        }
+
+        section.portfolio .flex{
+
+
+          gap: 80px;
+
+
+        }
+
+
+        .imgport{
+
+          width: 360px;
+          height: 460px;
+          background-size: cover;
+          background-position: 100% 0;
+
+          
+         
+        }
+
+        .imgport:hover{
+          background-position: 100% 100%;
+
+        }
+
+
+        .imgport p{
+
+          font-size: 40px;
+        }
